@@ -3,7 +3,7 @@ var router = express.Router();
 
 const items = [
   { id: 1, name: 'Laptop', stock: 10 },
-  { id: 2, name: 'Mouse', stock: 50 }
+  { id: 2, names: 'Mouse', stock: 50 }
 ];
 
 router.get('/', (req, res) => {
