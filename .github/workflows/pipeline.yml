@@ -44,7 +44,7 @@ jobs:
         run: npm install
 
       - name: Levantar app
-        run: node app.js &
+        run: node bin/www &
 
       - name: Esperar que inicie
         run: sleep 5
